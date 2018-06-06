@@ -1,0 +1,67 @@
+<domainmodel> 
+  <elements>
+    <competences>
+		<competence id="addition" />
+		<competence id="subtraction" />
+		<competence id="difference" />
+		<competence id="sort" />
+		<competence id="multiply" />
+		<competence id="divide" />
+    </competences>
+    <situations>
+		<situation id="additionGS" />
+		<situation id="subtractionGS" />
+		<situation id="differenceGS" />
+		<situation id="sortGS" />
+		<situation id="multiplyGS" />
+		<situation id="divideGS" />
+    </situations>
+       <activities>
+        </activities> 
+  </elements>
+  <relations>
+    <activities>
+    </activities>
+    <competenceprerequisites>
+		<competence id="subtraction">
+			<prereqcompetence id="sort" />
+			<prereqcompetence id="difference" />
+		</competence>
+		<competence id="multiply">
+			<prereqcompetence id="addition" />
+		</competence>
+		<competence id="divide">
+			<prereqcompetence id="multiply" />
+			<prereqcompetence id="subtraction" />
+		</competence>
+    </competenceprerequisites>
+    <situations>
+		<situation id="additionGS">
+			<competence id="addition" levelup="medium" leveldown="medium"/>
+		</situation>
+		<situation id="subtractionGS">
+			<competence id="subtraction" levelup="medium" leveldown="medium" />
+		</situation>
+		<situation id="differenceGS">
+			<competence id="difference" levelup="medium" leveldown="medium" />
+		</situation>
+		<situation id="sortGS">
+			<competence id="sort" levelup="medium" leveldown="medium" />
+		</situation>
+		<situation id="multiplyGS">
+			<competence id="multiply" levelup="medium" leveldown="medium" />
+		</situation>
+		<situation id="divideGS">
+			<competence id="divide" levelup="medium" leveldown="medium" />
+		</situation>
+    </situations>
+  </relations>
+  <updatelevels>
+	  <level   direction="up" power="low" xi="2.1" minonecompetence="true" maxonelevel="false"/>
+	  <level direction="down" power="low" xi="2.1" minonecompetence="false" maxonelevel="true"/>
+	  <level   direction="up" power="medium" xi="2.1" minonecompetence="true" maxonelevel="false"/>
+	  <level direction="down" power="medium" xi="2.1" minonecompetence="false" maxonelevel="false"/>
+	  <level   direction="up" power="high" xi="2.1" minonecompetence="true" maxonelevel="false"/>
+	  <level direction="down" power="high" xi="2.1" minonecompetence="false" maxonelevel="true"/>
+  </updatelevels>
+</domainmodel>

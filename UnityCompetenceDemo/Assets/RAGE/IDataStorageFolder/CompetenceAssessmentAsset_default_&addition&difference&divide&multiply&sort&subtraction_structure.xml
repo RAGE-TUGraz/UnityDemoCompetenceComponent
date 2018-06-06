@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Model>
+<Nodes>
+<NodePath>
+  <Path />
+  <Purpose>CompetenceAssessmentAsset_default_&amp;addition&amp;difference&amp;divide&amp;multiply&amp;sort&amp;subtraction</Purpose>
+  <Location>Local</Location>
+</NodePath>
+<NodePath>
+  <Path>addition</Path>
+  <Location>Local</Location>
+</NodePath>
+<NodePath>
+  <Path>subtraction</Path>
+  <Location>Local</Location>
+</NodePath>
+<NodePath>
+  <Path>difference</Path>
+  <Location>Local</Location>
+</NodePath>
+<NodePath>
+  <Path>sort</Path>
+  <Location>Local</Location>
+</NodePath>
+<NodePath>
+  <Path>multiply</Path>
+  <Location>Local</Location>
+</NodePath>
+<NodePath>
+  <Path>divide</Path>
+  <Location>Local</Location>
+</NodePath>
+</Nodes>
+</Model>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Model>
+<Nodes>
+<Node>
+  <Value>&lt;double&gt;0.93674034716708265&lt;/double&gt;</Value>
+  <Path>addition2</Path>
+  <ValueType>System.Double</ValueType>
+</Node>
+<Node>
+  <Value>&lt;double&gt;0.89600127009963437&lt;/double&gt;</Value>
+  <Path>subtraction2</Path>
+  <ValueType>System.Double</ValueType>
+</Node>
+<Node>
+  <Value>&lt;double&gt;0.93809907743640142&lt;/double&gt;</Value>
+  <Path>difference2</Path>
+  <ValueType>System.Double</ValueType>
+</Node>
+<Node>
+  <Value>&lt;double&gt;0.93809907743640142&lt;/double&gt;</Value>
+  <Path>sort2</Path>
+  <ValueType>System.Double</ValueType>
+</Node>
+<Node>
+  <Value>&lt;double&gt;0.88360223878743183&lt;/double&gt;</Value>
+  <Path>multiply2</Path>
+  <ValueType>System.Double</ValueType>
+</Node>
+<Node>
+  <Value>&lt;double&gt;0.70000000099999993&lt;/double&gt;</Value>
+  <Path>divide2</Path>
+  <ValueType>System.Double</ValueType>
+</Node>
+</Nodes>
+</Model>
