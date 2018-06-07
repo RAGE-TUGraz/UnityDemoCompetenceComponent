@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using CompetenceAssessmentAssetNameSpace;
+using CompetenceComponentNamespace;
 
 public class EndSceneScript : MonoBehaviour
 {
 
     public void Reset()
     {
-        CompetenceAssessmentAsset.Instance.resetCompetenceState();
+        CompetenceComponent.Instance.ResetCompetenceState();
         SceneManager.LoadScene("StartScene");
     }
 }

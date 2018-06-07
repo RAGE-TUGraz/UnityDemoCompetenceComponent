@@ -1,7 +1,5 @@
 ﻿using AssetManagerPackage;
-using CompetenceAssessmentAssetNameSpace;
-using CompetenceBasedAdaptionAssetNameSpace;
-using DomainModelAssetNameSpace;
+using CompetenceComponentNamespace;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -9,29 +7,29 @@ using UnityEngine.UI;
 public class GamesituationLoadingScript : MonoBehaviour {
 
     [SerializeField] Text text;
+    [SerializeField] Text evaluationState;
 
     private static bool isAssetpackCreated = false;
+    string gsName;
 
     private void Awake()
     {
         if (!isAssetpackCreated)
         {
-            // in here: create Assets, determine settings
+            // in here: create Component, determine settings
             AssetManager.Instance.Bridge = new Bridge();
 
-            //Doamin Model Asset
-            DomainModelAssetSettings dmas = new DomainModelAssetSettings();
-            dmas.LocalSource = true;
-            dmas.Source = "DomainModel.xml";
-            DomainModelAsset.Instance.Settings = dmas;
+            //CompetenceComponent
+            CompetenceComponent competenceComponent = CompetenceComponent.Instance;
+            CompetenceComponentSettings settings = new CompetenceComponentSettings();
+            settings.NumberOfLevels = 3;
+            settings.SourceFile = "dataModel.xml";
+            settings.LinearDecreasionOfCompetenceValuePerDay = 0.1f;
+            competenceComponent.Settings = settings;
+            
 
-            //Competence Assement Asset
-            CompetenceAssessmentAssetSettings caas = new CompetenceAssessmentAssetSettings();
-            caas.TransitionProbability = 0.7;
-            CompetenceAssessmentAsset.Instance.Settings = caas;
+            competenceComponent.Initialize();
 
-            //Competence based Adaptation Asset
-            //no settings needed
             isAssetpackCreated = true;
         }
 
@@ -40,21 +38,29 @@ public class GamesituationLoadingScript : MonoBehaviour {
     // Use this for initialization
     void Start ()
     {
-        //in here: we fill the screen with content based on the current gamesituation
+        //in here: we fill the screen with content based on the current competence to learn/test
 
         //load current game situation
-        string gsName = CompetenceBasedAdaptionAsset.Instance.getNextGameSituationId();
+        gsName = CompetenceComponent.Instance.GetCompetenceRecommendation();
 
-        //check if all competences are mastered
-        if (gsName == null)
-            LoadEndScene();
 
-        string message = "Now the game presents a game situation for training the competence associated with ";
-        message += "gamesituation <b><i>'" + gsName + "'</i></b>. Based on the player's performance the gamesituation is completed  ";
-        message += "either successfully or as a failure. Since this is a simple simulation the gameplay is simulated as a button click.";
+
+        string message = "Now the game presents a competence which needs to be trained/tested next. ";
+        message += "In our case it is the competence <b><i>'" + gsName + "'</i></b>. Based on the player's performance there is evidence for (success) or against (failure) ";
+        message += "the possession of this competence. Since this is a simple simulation the gameplay is simulated as a button click.";
         
 
         text.text = message;
+
+
+        //display evaluation state
+        CompetenceAssessmentObject cao =  CompetenceComponent.Instance.getAssessmentObject();
+        string txt = "";
+        foreach (AssessmentCompetence ac in cao.competences)
+        {
+            txt += ac.id + "_" + (Mathf.Round(100.0f*ac.value)/100.0f).ToString() + "_" +ac.timestamp+"\n";
+        }
+        evaluationState.text = txt;
     }
     
 
@@ -66,7 +72,13 @@ public class GamesituationLoadingScript : MonoBehaviour {
     public void UpdateCompetenceState(bool success)
     {
         //in here: the update of the current gamesituation is done based on the user input
-        CompetenceBasedAdaptionAsset.Instance.setGameSituationUpdate(success);
+        CompetenceComponent.Instance.Update(gsName,success);
+        LoadNextGamesituation();
+    }
+
+    public void ResetEvaluationState()
+    {
+        CompetenceComponent.Instance.ResetCompetenceState();
         LoadNextGamesituation();
     }
 

@@ -91,40 +91,27 @@
     <Reference Include="Facebook.Unity.Settings">
       <HintPath>Library\FacebookSDK\Facebook.Unity.Settings.dll</HintPath>
     </Reference>
-    <Reference Include="CompetenceAssessmentAsset">
-      <HintPath>Assets\RAGE\DLLs\CompetenceAssessmentAsset.dll</HintPath>
-    </Reference>
-    <Reference Include="CompetenceBasedAdaptionAsset">
-      <HintPath>Assets\RAGE\DLLs\CompetenceBasedAdaptionAsset.dll</HintPath>
-    </Reference>
-    <Reference Include="DomainModelAsset">
-      <HintPath>Assets\RAGE\DLLs\DomainModelAsset.dll</HintPath>
-    </Reference>
     <Reference Include="GameStorageClientAsset">
       <HintPath>Assets\RAGE\DLLs\GameStorageClientAsset.dll</HintPath>
     </Reference>
     <Reference Include="RageAssetManager">
       <HintPath>Assets\RAGE\DLLs\RageAssetManager.dll</HintPath>
     </Reference>
-    <Reference Include="TrackerAsset">
-      <HintPath>Assets\RAGE\DLLs\TrackerAsset.dll</HintPath>
+    <Reference Include="CompetenceComponent">
+      <HintPath>Assets\RAGE\DLLs\CompetenceComponent.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Bridge.cs" />
-    <Compile Include="Assets\Scripts\DomainModelChangerScript.cs" />
     <Compile Include="Assets\Scripts\EndSceneScript.cs" />
     <Compile Include="Assets\Scripts\GamesituationLoadingScript.cs" />
     <Compile Include="Assets\Scripts\StartSceneScript.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\RAGE\IDataStorageFolder\CompetenceAssessmentAsset_default_&amp;addition&amp;difference&amp;divide&amp;multiply&amp;sort&amp;subtraction.xml" />
-    <None Include="Assets\RAGE\IDataStorageFolder\CompetenceAssessmentAsset_default_&amp;addition&amp;difference&amp;divide&amp;multiply&amp;sort&amp;subtraction_structure.xml" />
-    <None Include="Assets\RAGE\IDataStorageFolder\CompetenceAssessmentAsset_default_&amp;addition2&amp;difference2&amp;divide2&amp;multiply2&amp;sort2&amp;subtraction2.xml" />
-    <None Include="Assets\RAGE\IDataStorageFolder\CompetenceAssessmentAsset_default_&amp;addition2&amp;difference2&amp;divide2&amp;multiply2&amp;sort2&amp;subtraction2_structure.xml" />
-    <None Include="Assets\RAGE\IDataStorageFolder\DomainModel.xml" />
-    <None Include="Assets\RAGE\IDataStorageFolder\DomainModel2.xml" />
+    <None Include="Assets\RAGE\IDataStorageFolder\CompetenceComponent_AssessmentState.xml" />
+    <None Include="Assets\RAGE\IDataStorageFolder\CompetenceComponent_AssessmentState_structure.xml" />
     <None Include="Assets\RAGE\IDataStorageFolder\GameStorageClientAssetSettings.xml" />
+    <None Include="Assets\RAGE\IDataStorageFolder\dataModel.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

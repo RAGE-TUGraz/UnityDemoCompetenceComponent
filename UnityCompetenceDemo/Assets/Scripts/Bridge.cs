@@ -7,8 +7,7 @@ using UnityEngine;
 
 public class Bridge : IBridge, ILog, IDataStorage
 {
-
-    string IDataStoragePath = @"C:\Users\mojaW\git\UnityCompetenceDemo\UnityCompetenceDemo\Assets\RAGE\IDataStorageFolder\";//"./";
+    string IDataStoragePath = @"C:\Users\mojaW\git\UnityDemoCompetenceComponent\UnityCompetenceDemo\Assets\RAGE\IDataStorageFolder\";//"./";
 
     #region IDataStorage
 

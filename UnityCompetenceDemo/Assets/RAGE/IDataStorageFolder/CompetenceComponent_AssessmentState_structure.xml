@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Model>
+<Nodes>
+<NodePath>
+  <Path />
+  <Purpose>CompetenceComponent_AssessmentState</Purpose>
+  <Location>Local</Location>
+</NodePath>
+<NodePath>
+  <Path>C1</Path>
+  <Location>Local</Location>
+</NodePath>
+<NodePath>
+  <Path>C2</Path>
+  <Location>Local</Location>
+</NodePath>
+<NodePath>
+  <Path>C3</Path>
+  <Location>Local</Location>
+</NodePath>
+<NodePath>
+  <Path>C4</Path>
+  <Location>Local</Location>
+</NodePath>
+<NodePath>
+  <Path>C5</Path>
+  <Location>Local</Location>
+</NodePath>
+<NodePath>
+  <Path>C6</Path>
+  <Location>Local</Location>
+</NodePath>
+<NodePath>
+  <Path>C7</Path>
+  <Location>Local</Location>
+</NodePath>
+</Nodes>
+</Model>
