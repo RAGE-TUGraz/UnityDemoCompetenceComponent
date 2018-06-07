@@ -55,7 +55,7 @@ public class GamesituationLoadingScript : MonoBehaviour {
 
         //display evaluation state
         CompetenceAssessmentObject cao =  CompetenceComponent.Instance.getAssessmentObject();
-        string txt = "";
+        string txt = "Competence values:\nid_value_timestamp\n\n";
         foreach (AssessmentCompetence ac in cao.competences)
         {
             txt += ac.id + "_" + (Mathf.Round(100.0f*ac.value)/100.0f).ToString() + "_" +ac.timestamp+"\n";

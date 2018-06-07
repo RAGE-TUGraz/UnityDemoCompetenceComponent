@@ -44,7 +44,7 @@ public class StartSceneScript : MonoBehaviour {
                 break;
             case 4:
                 msg += "Please note, that this is a simplified demonstration of this prototype. This should help to make the basic idea better understandable and to continue the discussion for further improvements.";
-                msg += " The updates are based on the player performance (success/failure). ";
+                msg += " The updates are based on the player performance (success/failure). You need to adapt the variable 'IDataStoragePath' in the Bridge.cs script.";
 
                 break;
             case 5:

@@ -2,352 +2,72 @@
 <Model>
 <Nodes>
 <Node>
-  <Value>&lt;string&gt;0.8333886&amp;amp;6/7/2018 9:28:34 AM&lt;/string&gt;</Value>
+  <Value>&lt;string&gt;0.1676753&amp;amp;6/7/2018 9:43:56 AM&lt;/string&gt;</Value>
   <Path>C1</Path>
   <ValueType>System.String</ValueType>
 </Node>
 <Node>
-  <Value>&lt;string&gt;0.1667219&amp;amp;6/7/2018 9:28:37 AM&lt;/string&gt;</Value>
+  <Value>&lt;string&gt;0.5010087&amp;amp;6/7/2018 9:43:58 AM&lt;/string&gt;</Value>
   <Path>C2</Path>
   <ValueType>System.String</ValueType>
 </Node>
 <Node>
-  <Value>&lt;string&gt;0.8333886&amp;amp;6/7/2018 9:28:33 AM&lt;/string&gt;</Value>
+  <Value>&lt;string&gt;0.1676753&amp;amp;6/7/2018 9:43:56 AM&lt;/string&gt;</Value>
   <Path>C3</Path>
   <ValueType>System.String</ValueType>
 </Node>
 <Node>
-  <Value>&lt;string&gt;0.3333333&amp;amp;6/7/2018 9:28:32 AM&lt;/string&gt;</Value>
+  <Value>&lt;string&gt;0.1676753&amp;amp;6/7/2018 9:43:56 AM&lt;/string&gt;</Value>
   <Path>C4</Path>
   <ValueType>System.String</ValueType>
 </Node>
 <Node>
-  <Value>&lt;string&gt;0.5000552&amp;amp;6/7/2018 9:28:32 AM&lt;/string&gt;</Value>
+  <Value>&lt;string&gt;0.1676753&amp;amp;6/7/2018 9:43:56 AM&lt;/string&gt;</Value>
   <Path>C5</Path>
   <ValueType>System.String</ValueType>
 </Node>
 <Node>
-  <Value>&lt;string&gt;0.5000552&amp;amp;6/7/2018 9:28:29 AM&lt;/string&gt;</Value>
+  <Value>&lt;string&gt;0.1676753&amp;amp;6/7/2018 9:43:56 AM&lt;/string&gt;</Value>
   <Path>C6</Path>
   <ValueType>System.String</ValueType>
 </Node>
 <Node>
-  <Value>&lt;string&gt;0.8333827&amp;amp;6/7/2018 9:28:33 AM&lt;/string&gt;</Value>
+  <Value>&lt;string&gt;0.1676753&amp;amp;6/7/2018 9:43:56 AM&lt;/string&gt;</Value>
   <Path>C7</Path>
   <ValueType>System.String</ValueType>
 </Node>
 <Node>
-  <Value>&lt;string&gt;0.8334407&amp;amp;6/7/2018 9:29:18 AM&lt;/string&gt;</Value>
+  <Value>&lt;string&gt;0.1679032&amp;amp;6/7/2018 9:47:12 AM&lt;/string&gt;</Value>
   <Path>C1</Path>
   <ValueType>System.String</ValueType>
 </Node>
 <Node>
-  <Value>&lt;string&gt;0.5001038&amp;amp;6/7/2018 9:29:20 AM&lt;/string&gt;</Value>
+  <Value>&lt;string&gt;0.5012342&amp;amp;6/7/2018 9:47:12 AM&lt;/string&gt;</Value>
   <Path>C2</Path>
   <ValueType>System.String</ValueType>
 </Node>
 <Node>
-  <Value>&lt;string&gt;0.8334418&amp;amp;6/7/2018 9:29:18 AM&lt;/string&gt;</Value>
+  <Value>&lt;string&gt;0.1679032&amp;amp;6/7/2018 9:47:12 AM&lt;/string&gt;</Value>
   <Path>C3</Path>
   <ValueType>System.String</ValueType>
 </Node>
 <Node>
-  <Value>&lt;string&gt;0.3333876&amp;amp;6/7/2018 9:29:18 AM&lt;/string&gt;</Value>
+  <Value>&lt;string&gt;0.1679032&amp;amp;6/7/2018 9:47:12 AM&lt;/string&gt;</Value>
   <Path>C4</Path>
   <ValueType>System.String</ValueType>
 </Node>
 <Node>
-  <Value>&lt;string&gt;0.5001096&amp;amp;6/7/2018 9:29:18 AM&lt;/string&gt;</Value>
+  <Value>&lt;string&gt;0.1679032&amp;amp;6/7/2018 9:47:12 AM&lt;/string&gt;</Value>
   <Path>C5</Path>
   <ValueType>System.String</ValueType>
 </Node>
 <Node>
-  <Value>&lt;string&gt;0.500113&amp;amp;6/7/2018 9:29:18 AM&lt;/string&gt;</Value>
+  <Value>&lt;string&gt;0.1679032&amp;amp;6/7/2018 9:47:12 AM&lt;/string&gt;</Value>
   <Path>C6</Path>
   <ValueType>System.String</ValueType>
 </Node>
 <Node>
-  <Value>&lt;string&gt;0.8334359&amp;amp;6/7/2018 9:29:18 AM&lt;/string&gt;</Value>
-  <Path>C7</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;0.8334407&amp;amp;6/7/2018 9:29:18 AM&lt;/string&gt;</Value>
-  <Path>C1</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;0.5001038&amp;amp;6/7/2018 9:29:20 AM&lt;/string&gt;</Value>
-  <Path>C2</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;0.8334418&amp;amp;6/7/2018 9:29:18 AM&lt;/string&gt;</Value>
-  <Path>C3</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;0.666721&amp;amp;6/7/2018 9:29:20 AM&lt;/string&gt;</Value>
-  <Path>C4</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;0.5001096&amp;amp;6/7/2018 9:29:18 AM&lt;/string&gt;</Value>
-  <Path>C5</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;0.500113&amp;amp;6/7/2018 9:29:18 AM&lt;/string&gt;</Value>
-  <Path>C6</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;0.8334359&amp;amp;6/7/2018 9:29:18 AM&lt;/string&gt;</Value>
-  <Path>C7</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;0.8334407&amp;amp;6/7/2018 9:29:18 AM&lt;/string&gt;</Value>
-  <Path>C1</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;0.5001038&amp;amp;6/7/2018 9:29:20 AM&lt;/string&gt;</Value>
-  <Path>C2</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;0.8334418&amp;amp;6/7/2018 9:29:18 AM&lt;/string&gt;</Value>
-  <Path>C3</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;0.666721&amp;amp;6/7/2018 9:29:20 AM&lt;/string&gt;</Value>
-  <Path>C4</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;0.5001096&amp;amp;6/7/2018 9:29:18 AM&lt;/string&gt;</Value>
-  <Path>C5</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;0.8334464&amp;amp;6/7/2018 9:29:21 AM&lt;/string&gt;</Value>
-  <Path>C6</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;0.8334359&amp;amp;6/7/2018 9:29:18 AM&lt;/string&gt;</Value>
-  <Path>C7</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;0.8334407&amp;amp;6/7/2018 9:29:18 AM&lt;/string&gt;</Value>
-  <Path>C1</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;0.5001038&amp;amp;6/7/2018 9:29:20 AM&lt;/string&gt;</Value>
-  <Path>C2</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;0.8334418&amp;amp;6/7/2018 9:29:18 AM&lt;/string&gt;</Value>
-  <Path>C3</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;0.666721&amp;amp;6/7/2018 9:29:20 AM&lt;/string&gt;</Value>
-  <Path>C4</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;0.8334429&amp;amp;6/7/2018 9:29:21 AM&lt;/string&gt;</Value>
-  <Path>C5</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;0.8334464&amp;amp;6/7/2018 9:29:21 AM&lt;/string&gt;</Value>
-  <Path>C6</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;0.8334359&amp;amp;6/7/2018 9:29:18 AM&lt;/string&gt;</Value>
-  <Path>C7</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;0.8334407&amp;amp;6/7/2018 9:29:18 AM&lt;/string&gt;</Value>
-  <Path>C1</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;0.8334372&amp;amp;6/7/2018 9:29:21 AM&lt;/string&gt;</Value>
-  <Path>C2</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;0.8334418&amp;amp;6/7/2018 9:29:18 AM&lt;/string&gt;</Value>
-  <Path>C3</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;0.666721&amp;amp;6/7/2018 9:29:20 AM&lt;/string&gt;</Value>
-  <Path>C4</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;0.8334429&amp;amp;6/7/2018 9:29:21 AM&lt;/string&gt;</Value>
-  <Path>C5</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;0.8334464&amp;amp;6/7/2018 9:29:21 AM&lt;/string&gt;</Value>
-  <Path>C6</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;0.8334359&amp;amp;6/7/2018 9:29:18 AM&lt;/string&gt;</Value>
-  <Path>C7</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;1&amp;amp;6/7/2018 9:29:21 AM&lt;/string&gt;</Value>
-  <Path>C1</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;0.8334372&amp;amp;6/7/2018 9:29:21 AM&lt;/string&gt;</Value>
-  <Path>C2</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;0.8334418&amp;amp;6/7/2018 9:29:18 AM&lt;/string&gt;</Value>
-  <Path>C3</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;0.666721&amp;amp;6/7/2018 9:29:20 AM&lt;/string&gt;</Value>
-  <Path>C4</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;0.8334429&amp;amp;6/7/2018 9:29:21 AM&lt;/string&gt;</Value>
-  <Path>C5</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;0.8334464&amp;amp;6/7/2018 9:29:21 AM&lt;/string&gt;</Value>
-  <Path>C6</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;0.8334359&amp;amp;6/7/2018 9:29:18 AM&lt;/string&gt;</Value>
-  <Path>C7</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;1&amp;amp;6/7/2018 9:29:21 AM&lt;/string&gt;</Value>
-  <Path>C1</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;0.8334372&amp;amp;6/7/2018 9:29:21 AM&lt;/string&gt;</Value>
-  <Path>C2</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;1&amp;amp;6/7/2018 9:29:21 AM&lt;/string&gt;</Value>
-  <Path>C3</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;0.666721&amp;amp;6/7/2018 9:29:20 AM&lt;/string&gt;</Value>
-  <Path>C4</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;0.8334429&amp;amp;6/7/2018 9:29:21 AM&lt;/string&gt;</Value>
-  <Path>C5</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;0.8334464&amp;amp;6/7/2018 9:29:21 AM&lt;/string&gt;</Value>
-  <Path>C6</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;0.8334359&amp;amp;6/7/2018 9:29:18 AM&lt;/string&gt;</Value>
-  <Path>C7</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;1&amp;amp;6/7/2018 9:29:21 AM&lt;/string&gt;</Value>
-  <Path>C1</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;0.8334372&amp;amp;6/7/2018 9:29:21 AM&lt;/string&gt;</Value>
-  <Path>C2</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;1&amp;amp;6/7/2018 9:29:21 AM&lt;/string&gt;</Value>
-  <Path>C3</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;0.666721&amp;amp;6/7/2018 9:29:20 AM&lt;/string&gt;</Value>
-  <Path>C4</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;0.8334429&amp;amp;6/7/2018 9:29:21 AM&lt;/string&gt;</Value>
-  <Path>C5</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;0.8334464&amp;amp;6/7/2018 9:29:21 AM&lt;/string&gt;</Value>
-  <Path>C6</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;1&amp;amp;6/7/2018 9:29:21 AM&lt;/string&gt;</Value>
-  <Path>C7</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;0.1666667&amp;amp;6/7/2018 9:29:25 AM&lt;/string&gt;</Value>
-  <Path>C1</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;0.1666667&amp;amp;6/7/2018 9:29:25 AM&lt;/string&gt;</Value>
-  <Path>C2</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;0.1666667&amp;amp;6/7/2018 9:29:25 AM&lt;/string&gt;</Value>
-  <Path>C3</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;0.1666667&amp;amp;6/7/2018 9:29:25 AM&lt;/string&gt;</Value>
-  <Path>C4</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;0.1666667&amp;amp;6/7/2018 9:29:25 AM&lt;/string&gt;</Value>
-  <Path>C5</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;0.1666667&amp;amp;6/7/2018 9:29:25 AM&lt;/string&gt;</Value>
-  <Path>C6</Path>
-  <ValueType>System.String</ValueType>
-</Node>
-<Node>
-  <Value>&lt;string&gt;0.1666667&amp;amp;6/7/2018 9:29:25 AM&lt;/string&gt;</Value>
+  <Value>&lt;string&gt;0.5012365&amp;amp;6/7/2018 9:47:20 AM&lt;/string&gt;</Value>
   <Path>C7</Path>
   <ValueType>System.String</ValueType>
 </Node>
