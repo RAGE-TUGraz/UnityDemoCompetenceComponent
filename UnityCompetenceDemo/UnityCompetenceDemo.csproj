@@ -91,14 +91,14 @@
     <Reference Include="Facebook.Unity.Settings">
       <HintPath>Library\FacebookSDK\Facebook.Unity.Settings.dll</HintPath>
     </Reference>
+    <Reference Include="CompetenceComponent">
+      <HintPath>Assets\RAGE\DLLs\CompetenceComponent.dll</HintPath>
+    </Reference>
     <Reference Include="GameStorageClientAsset">
       <HintPath>Assets\RAGE\DLLs\GameStorageClientAsset.dll</HintPath>
     </Reference>
     <Reference Include="RageAssetManager">
       <HintPath>Assets\RAGE\DLLs\RageAssetManager.dll</HintPath>
-    </Reference>
-    <Reference Include="CompetenceComponent">
-      <HintPath>Assets\RAGE\DLLs\CompetenceComponent.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

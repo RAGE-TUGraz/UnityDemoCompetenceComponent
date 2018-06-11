@@ -1,5 +1,6 @@
 ﻿using AssetManagerPackage;
 using CompetenceComponentNamespace;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -8,6 +9,9 @@ public class GamesituationLoadingScript : MonoBehaviour {
 
     [SerializeField] Text text;
     [SerializeField] Text evaluationState;
+    [SerializeField] bool debugOutput;
+
+    private int maxLevel = 3;
 
     private static bool isAssetpackCreated = false;
     string gsName;
@@ -22,13 +26,13 @@ public class GamesituationLoadingScript : MonoBehaviour {
             //CompetenceComponent
             CompetenceComponent competenceComponent = CompetenceComponent.Instance;
             CompetenceComponentSettings settings = new CompetenceComponentSettings();
-            settings.NumberOfLevels = 3;
+            settings.NumberOfLevels = maxLevel;
             settings.SourceFile = "dataModel.xml";
             settings.LinearDecreasionOfCompetenceValuePerDay = 0.1f;
             competenceComponent.Settings = settings;
             
 
-            competenceComponent.Initialize();
+            //competenceComponent.Initialize();
 
             isAssetpackCreated = true;
         }
@@ -54,11 +58,26 @@ public class GamesituationLoadingScript : MonoBehaviour {
 
 
         //display evaluation state
-        CompetenceAssessmentObject cao =  CompetenceComponent.Instance.getAssessmentObject();
-        string txt = "Competence values:\nid_value_timestamp\n\n";
-        foreach (AssessmentCompetence ac in cao.competences)
+        string txt = "";
+        if (debugOutput)
         {
-            txt += ac.id + "_" + (Mathf.Round(100.0f*ac.value)/100.0f).ToString() + "_" +ac.timestamp+"\n";
+            txt += "Competence values:\nid_value_timestamp\n\n";
+            CompetenceAssessmentObject cao = CompetenceComponent.Instance.getAssessmentObject();
+            foreach (AssessmentCompetence ac in cao.competences)
+            {
+                txt += ac.id + "_" + (Mathf.Round(100.0f * ac.value) / 100.0f).ToString() + "_" + ac.timestamp + "\n";
+            }
+            evaluationState.fontSize = 10;
+        }
+        else
+        {
+            txt += "Competences\nid: level\n\n";
+            Dictionary<string, int> competenceLevels = CompetenceComponent.Instance.getCompetenceLevels();
+            foreach (string key in competenceLevels.Keys)
+            {
+                txt += key + ": " + competenceLevels[key].ToString() + "/"+ (maxLevel-1).ToString() + "\n";
+            }
+            evaluationState.fontSize = 20;
         }
         evaluationState.text = txt;
     }
