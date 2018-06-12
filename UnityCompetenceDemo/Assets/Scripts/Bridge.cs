@@ -7,7 +7,9 @@ using UnityEngine;
 
 public class Bridge : IBridge, ILog, IDataStorage
 {
-    string IDataStoragePath = @"C:\Users\mojaW\git\UnityDemoCompetenceComponent\UnityCompetenceDemo\Assets\RAGE\IDataStorageFolder\";//"./";
+    //string IDataStoragePath = @"C:\Users\mojaW\git\UnityDemoCompetenceComponent\UnityCompetenceDemo\Assets\RAGE\IDataStorageFolder\";//"./";
+    //string IDataStoragePath = @"C:\Users\mojo\git\UnityDemoCompetenceComponent\UnityCompetenceDemo\Assets\RAGE\IDataStorageFolder\";
+    string IDataStoragePath = Application.dataPath + @"\RAGE\IDataStorageFolder\";
 
     #region IDataStorage
 
@@ -35,6 +37,7 @@ public class Bridge : IBridge, ILog, IDataStorage
 
     public string Load(string fileId)
     {
+        //Debug.Log(Application.dataPath);
         string filePath = IDataStoragePath + fileId;
         try
         {   // Open the text file using a stream reader.
@@ -68,7 +71,7 @@ public class Bridge : IBridge, ILog, IDataStorage
 
     public void Log(Severity severity, string msg)
     {
-        //Debug.Log("BRIDGE:  " + msg);
+        Debug.Log("BRIDGE:  " + msg);
     }
 
     #endregion ILog 
